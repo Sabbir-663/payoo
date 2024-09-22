@@ -20,7 +20,7 @@ document.getElementById('button-login').addEventListener('click',function(event)
     const pinNumber=document.getElementById('pin-number').value ;
     //console.log(phoneNumber,pinNumber);
 
-    if (phoneNumber==="01643033670" && pinNumber==="2024"){
+    if (phoneNumber==="0123456789" && pinNumber==="2024"){
         console.log('You are Welcome !!!! ^_^');
         window.location.href ='/home.html'
         
